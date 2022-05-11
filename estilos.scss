@@ -125,6 +125,30 @@ nav li a:hover{
         height: 30px;
         margin-top: 10px;
     }
+    main{
+        background-color: rgba(238, 130, 238, 0.247);
+        background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
+    }
+        h2{
+        color: rgb(89, 42, 165);
+        font-size: 35px;
+        font-family: $font1;
+        text-decoration: none;
+        text-align: center;
+    }
+        section
+            video{
+            display: block;
+            width: 80%;
+            margin: auto;
+    }
+            p{
+            font-family: $font1;
+            font-size: 1.5rem;
+            text-align: center;
+            margin-top: 30px;
+            color: #aa04d4c5;
+    }
     .principal{
         background-color: rgba(238, 130, 238, 0.247);
         background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
@@ -160,9 +184,6 @@ nav li a:hover{
     .tiempo{
         display: none;
     }
-    .videosr{
-        background-color: rgba(67, 67, 201, 0.212);
-    }
     .list-group-item {
         color: #aa04d4c5;
         font-size: 1rem;
@@ -170,18 +191,6 @@ nav li a:hover{
         font-weight: 900;
         text-transform: uppercase;
         cursor: unset !important;
-    }
-    .video{
-        display: block;
-        width: 80%;
-        margin: auto;
-    }
-    .refvid{
-        font-family: $font1;
-        font-size: 1.5rem;
-        text-align: center;
-        margin-top: 30px;
-        color: #b940d4c5;
     }
     .pie__sub{
         color: black;
@@ -268,16 +277,29 @@ nav li a:hover{
     .tiempo{
         display: none   ;
     }
-    .principal{
+    main{
         background-color: rgba(238, 130, 238, 0.247);
         background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
     }
-    .galeria__destacados{
+        h2{
         color: rgb(89, 42, 165);
         font-size: 35px;
         font-family: $font1;
         text-decoration: none;
         text-align: center;
+    }
+        section{
+        display: flex;
+    }
+            video{
+            display: flex;
+    }
+            p{
+            font-family: $font1;
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 30px;
+            color: #aa04d4c5;
     }
     .descripcion{
         color: rgb(95, 78, 204);
@@ -302,9 +324,6 @@ nav li a:hover{
     .tiempo{
         display: none;
     }
-    .videosr{
-        display: flex;
-    }
     .list-group-item {
         color: #aa04d4c5;
         font-size: 1.5rem;
@@ -312,13 +331,6 @@ nav li a:hover{
         font-weight: 900;
         text-transform: uppercase;
         cursor: unset !important;
-    }
-    .refvid{
-        font-family: $font1;
-        font-size: 1.2rem;
-        text-align: center;
-        margin-top: 30px;
-        color: #aa04d4c5;
     }
     .pie{
         background-size: cover;
@@ -575,16 +587,35 @@ nav li a:hover{
     .tiempo{
         float: right;
     }
-    .principal{
+    main{
         background-color: rgba(238, 130, 238, 0.247);
         background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
     }
-    .galeria__destacados{
+        h2{
         color: rgb(89, 42, 165);
         font-size: 35px;
         font-family: $font1;
         text-decoration: none;
         text-align: center;
+    }
+        section{
+        display: flex;
+    }
+            video{
+            display: flex;
+            margin-left: 1rem;
+            width: 60%;
+    }
+            p{
+            font-family: $font1;
+            font-size: 3rem;
+            text-align: center;
+            margin-top: 30px;
+            color: #aa04d4c5;
+    }
+    .principal{
+        background-color: rgba(238, 130, 238, 0.247);
+        background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
     }
     .descripcion{
         color: rgb(95, 78, 204);
@@ -597,9 +628,6 @@ nav li a:hover{
         font-family: $font2;
         color: rgb(118, 3, 185);
     }
-    .videosr{
-        display: flex;
-    }
     .list-group-item {
         color: #aa04d4c5;
         font-size: 2rem;
@@ -607,13 +635,6 @@ nav li a:hover{
         font-weight: 900;
         text-transform: uppercase;
         cursor: unset !important;
-    }
-    .refvid{
-        font-family: $font1;
-        font-size: 3rem;
-        text-align: center;
-        margin-top: 30px;
-        color: #aa04d4c5;
     }
     .pie{
         background-size: cover;

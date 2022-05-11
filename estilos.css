@@ -140,6 +140,33 @@ nav li a:hover {
     margin-top: 10px;
   }
 
+  main {
+    background-color: rgba(238, 130, 238, 0.247);
+    background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
+  }
+
+  h2 {
+    color: rgb(89, 42, 165);
+    font-size: 35px;
+    font-family: "Lobster", cursive;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  section video {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+  p {
+    font-family: "Lobster", cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(170, 4, 212, 0.7725490196);
+  }
+
   .principal {
     background-color: rgba(238, 130, 238, 0.247);
     background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
@@ -182,10 +209,6 @@ nav li a:hover {
     display: none;
   }
 
-  .videosr {
-    background-color: rgba(67, 67, 201, 0.212);
-  }
-
   .list-group-item {
     color: rgba(170, 4, 212, 0.7725490196);
     font-size: 1rem;
@@ -193,20 +216,6 @@ nav li a:hover {
     font-weight: 900;
     text-transform: uppercase;
     cursor: unset !important;
-  }
-
-  .video {
-    display: block;
-    width: 80%;
-    margin: auto;
-  }
-
-  .refvid {
-    font-family: "Lobster", cursive;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 30px;
-    color: rgba(185, 64, 212, 0.7725490196);
   }
 
   .pie__sub {
@@ -308,17 +317,33 @@ nav li a:hover {
     display: none;
   }
 
-  .principal {
+  main {
     background-color: rgba(238, 130, 238, 0.247);
     background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
   }
 
-  .galeria__destacados {
+  h2 {
     color: rgb(89, 42, 165);
     font-size: 35px;
     font-family: "Lobster", cursive;
     text-decoration: none;
     text-align: center;
+  }
+
+  section {
+    display: flex;
+  }
+
+  video {
+    display: flex;
+  }
+
+  p {
+    font-family: "Lobster", cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(170, 4, 212, 0.7725490196);
   }
 
   .descripcion {
@@ -350,10 +375,6 @@ nav li a:hover {
     display: none;
   }
 
-  .videosr {
-    display: flex;
-  }
-
   .list-group-item {
     color: rgba(170, 4, 212, 0.7725490196);
     font-size: 1.5rem;
@@ -361,14 +382,6 @@ nav li a:hover {
     font-weight: 900;
     text-transform: uppercase;
     cursor: unset !important;
-  }
-
-  .refvid {
-    font-family: "Lobster", cursive;
-    font-size: 1.2rem;
-    text-align: center;
-    margin-top: 30px;
-    color: rgba(170, 4, 212, 0.7725490196);
   }
 
   .pie {
@@ -670,17 +683,40 @@ nav li a:hover {
     float: right;
   }
 
-  .principal {
+  main {
     background-color: rgba(238, 130, 238, 0.247);
     background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
   }
 
-  .galeria__destacados {
+  h2 {
     color: rgb(89, 42, 165);
     font-size: 35px;
     font-family: "Lobster", cursive;
     text-decoration: none;
     text-align: center;
+  }
+
+  section {
+    display: flex;
+  }
+
+  video {
+    display: flex;
+    margin-left: 1rem;
+    width: 60%;
+  }
+
+  p {
+    font-family: "Lobster", cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(170, 4, 212, 0.7725490196);
+  }
+
+  .principal {
+    background-color: rgba(238, 130, 238, 0.247);
+    background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
   }
 
   .descripcion {
@@ -696,10 +732,6 @@ nav li a:hover {
     color: rgb(118, 3, 185);
   }
 
-  .videosr {
-    display: flex;
-  }
-
   .list-group-item {
     color: rgba(170, 4, 212, 0.7725490196);
     font-size: 2rem;
@@ -707,14 +739,6 @@ nav li a:hover {
     font-weight: 900;
     text-transform: uppercase;
     cursor: unset !important;
-  }
-
-  .refvid {
-    font-family: "Lobster", cursive;
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 30px;
-    color: rgba(170, 4, 212, 0.7725490196);
   }
 
   .pie {
